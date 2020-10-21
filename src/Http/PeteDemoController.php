@@ -41,7 +41,7 @@ class PeteDemoController extends Controller
 	public function test_demo(){
 				
 		$viewsw = "/import_wordpress";
-		return view("wordpress-importer-plugin::test_demo")->with('viewsw',$viewsw);
+		return view("pete-demo-plugin::test_demo")->with('viewsw',$viewsw);
 	}
 	
 	
