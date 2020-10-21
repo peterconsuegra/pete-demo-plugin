@@ -19,7 +19,7 @@ class PeteDemoServiceProvider extends ServiceProvider
         require __DIR__ . '/Http/routes.php';
 		
 		//define the path for the view files
-		//$this->loadViewsFrom(__DIR__.'/../views','wordpress-importer-plugin');
+		$this->loadViewsFrom(__DIR__.'/../views','pete-demo-plugin');
 		
 		//define files which are going to publish
 		//$this->publishes([__DIR__.'/migrations/2020_05_000000_create_todo_table.php' => base_path('database/migrations/2020_05_000000_create_to_table.php')]);
