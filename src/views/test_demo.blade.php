@@ -1,8 +1,9 @@
-@extends('layout')
-
-@section('content')
-@include('error')
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test demo</title>
+</head>
+<body>
 
 	<div class="row">
 		<div class="col-md-12">
@@ -15,8 +16,6 @@
 				</div>
 		</div>
 	</div>
-	
 
-			
-	
-@endsection
+</body>
+</html>
